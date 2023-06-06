@@ -1,7 +1,6 @@
 #include <bits/stdc++.h> 
 vector<int> nextPermutation(vector<int> &p, int n)
 {
-    //  Write your code here.
  int index = -1;
         for(int i=n-2; i>=0; i--){
             if(p[i] < p[i+1]){
