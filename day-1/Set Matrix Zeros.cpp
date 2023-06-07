@@ -2,7 +2,6 @@
 
 void setZeros(vector<vector<int>> &mat)
 {
-	// Write your code here.
 	int n = mat.size();
 	int m = mat[0].size();
 
